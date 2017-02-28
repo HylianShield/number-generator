@@ -1,6 +1,8 @@
 <?php
 namespace HylianShield\NumberGenerator;
 
+use Generator;
+
 class NumberGenerator implements NumberGeneratorInterface
 {
     /**
@@ -11,13 +13,13 @@ class NumberGenerator implements NumberGeneratorInterface
      * @param int $max
      *
      * @yield  int
-     * @return void
+     * @return Generator
      */
     public function generateList(
         int $size,
         int $min = 0,
         int $max = PHP_INT_MAX
-    ) {
+    ): Generator {
         $size = abs($size);
 
         for ($i = 0; $i < $size; $i++) {
