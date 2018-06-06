@@ -2,11 +2,12 @@
 namespace HylianShield\NumberGenerator\Tests;
 
 use HylianShield\NumberGenerator\NumberGenerator;
+use PHPUnit\Framework\TestCase;
 
 /**
  * @coversDefaultClass \HylianShield\NumberGenerator\NumberGenerator
  */
-class NumberGeneratorTest extends \PHPUnit_Framework_TestCase
+class NumberGeneratorTest extends TestCase
 {
     /** @var NumberGenerator */
     private $generator;
