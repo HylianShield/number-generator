@@ -1,4 +1,5 @@
 # Introduction
+[![Build Status](https://travis-ci.org/HylianShield/number-generator.svg?branch=master)](https://travis-ci.org/HylianShield/number-generator)
 
 Generate a number or a list of numbers between a given minimum and maximum.
 The default implementation is based on the
